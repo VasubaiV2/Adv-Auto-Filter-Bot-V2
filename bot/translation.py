@@ -5,16 +5,16 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+<i>ഞാൻ ഒരു 𝐀𝐔𝐓𝐎 𝐅𝐈𝐋𝐓𝐄𝐑 𝐁𝐎𝐓 ആണ്, എന്നെ നിങ്ങളുടെ ഗ്രൂപ്പിൽ ആഡ് ചെയ്യാൻ നോക്കി സമയം കളയണ്ട, എന്നെ MALAYALAM CINEMA ഗ്രൂപ്പിൽ മാത്രമേ ആഡ് ചെയ്യാൻ കഴിയൂ...!!!
 
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
 
-For More Details Click Help Button Below..
+
+
 @malayayalies
 </i>"""    
     
     HELP_TEXT = """
-<b><i><u>How To Use Me!?</u></i></b>
+<b><i><u>NO ONE CAN HELP YOU!?</u></i></b>
 
 <i>
 -> Add Me To Any Group And Make Me Admin
