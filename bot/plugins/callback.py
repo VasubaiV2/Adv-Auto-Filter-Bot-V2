@@ -1608,7 +1608,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/AlbertEinstein_TG"
+                    "GROUP", url="https://t.me/malayayalies"
                 ),
                 
             InlineKeyboardButton
@@ -1639,12 +1639,12 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Filter-Bot-V2')
+            InlineKeyboardButton('CHANNEL', url='https://t.me/malayalam_movies_h'),
+            InlineKeyboardButton('GROUP', url ='https://t.me/malayayalies')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('NEW MOVIES', url='https://t.me/joinchat/FClPZ54OrtdlNjQ1')
         ],[
-            InlineKeyboardButton('Help ⚙', callback_data="help")
+            InlineKeyboardButton('WEBSERIES', url="htttps://t.me/netflixorgi")
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
