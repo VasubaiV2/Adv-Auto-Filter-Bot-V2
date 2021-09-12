@@ -22,7 +22,8 @@ async def start (bot, update):
             await update.reply_text("sorry dude, you are **banned 🚫🚫**")
             return
         except UserNotParticipant:
-            await
+            await update.reply_text(
+                text="**join our main channel to use me
 @Client.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot, update):
     
