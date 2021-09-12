@@ -23,7 +23,16 @@ async def start (bot, update):
             return
         except UserNotParticipant:
             await update.reply_text(
-                text="**join our main channel to use me
+                text="**join our main channel to use me 😁😁**",
+                reply_markup=InlinekeyboardMarkup([
+                    [ InlinekeyboradButton(text="join our Main Channel", url=f"https://t.me/malayalam_movies_h"
+               ])
+              )
+              return
+          except Exception:
+              await update.reply_text("something went wrong ask in group")
+                     
+                     
 @Client.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot, update):
     
