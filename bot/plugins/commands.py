@@ -11,9 +11,9 @@ db = Database()
 
 
 @Client.on_message(filters.command(["start"]) & filters.private.group=1)
-async def start (bot, update):
+async def start(bot, update):
 
-    
+
   update_channel = "Malayalam Cinema"
   if update_channel:
      try:
