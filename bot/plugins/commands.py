@@ -33,7 +33,7 @@ async def start (bot, update):
               await update.reply_text("something went wrong ask in group")
                      
                      
-@Client.on_message(filters.command(["start"]) & filters.private, group=1)
+@Client.on_message(filters.command(["start"]) & filters.private.group=1)
 async def start(bot, update):
     
     try:
