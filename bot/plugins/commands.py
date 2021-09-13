@@ -11,6 +11,7 @@ db = Database()
 
 
 @Client.on_message(filters.command(["start"]) & filters.private.group=1)
+
 async def start(bot, update):
 
 
@@ -18,7 +19,7 @@ async def start(bot, update):
   if update_channel:
      try:
         user = await bot.get_chat_member(update_channel, update.chat.id)
-        if user.status == "kicked":
+        if user.status =="kicked":
             await update.reply_text("sorry dude, you are **banned 🚫🚫**")
             return
         except UserNotParticipant:
